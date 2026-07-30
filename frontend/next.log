@@ -1,0 +1,33 @@
+
+> erp-masterdata-prep-frontend@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.5s
+ ○ Compiling / ...
+ ✓ Compiled / in 2.5s (457 modules)
+ GET / 200 in 3160ms
+ GET / 200 in 56ms
+ GET / 200 in 54ms
+ ✓ Compiled in 7.8s (471 modules)
+ GET / 200 in 612ms
+ GET / 200 in 81ms
+ GET / 200 in 67ms
+ GET / 200 in 64ms
+ GET / 200 in 69ms
+ ✓ Compiled in 368ms (457 modules)
+ ✓ Compiled in 154ms (457 modules)
+ GET / 200 in 262ms
+ ✓ Compiled in 565ms (471 modules)
+ ✓ Compiled in 305ms (471 modules)
+ ✓ Compiled in 224ms (471 modules)
+ GET / 200 in 77ms
+ GET / 200 in 94ms
+ GET / 200 in 71ms
+ ✓ Compiled in 933ms (471 modules)
+ GET / 200 in 154ms
+ GET / 200 in 75ms

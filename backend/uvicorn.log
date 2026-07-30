@@ -1,0 +1,80 @@
+[config] AI_AVAILABLE=True | keys configured: OpenRouter=1, Groq=1
+INFO:     127.0.0.1:49950 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49964 - "DELETE /api/masters/15 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:49966 - "DELETE /api/masters/14 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:49968 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50452 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61370 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57954 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57954 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57954 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52535 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50093 - "POST /api/masters/list-sheets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50093 - "POST /api/masters/list-sheets HTTP/1.1" 200 OK
+    [AI] OpenRouter (key 1) failed (Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4000 tokens, but can only afford 2262. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4000 tokens, but can only afford 2262. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3GISrhPsNj4Xv2hISTLYOL5TaBQ'}) -> trying next
+INFO:     127.0.0.1:55125 - "POST /api/masters/upload HTTP/1.1" 200 OK
+    [AI] OpenRouter (key 1) failed (Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4000 tokens, but can only afford 2262. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4000 tokens, but can only afford 2262. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3GISrhPsNj4Xv2hISTLYOL5TaBQ'}) -> trying next
+INFO:     127.0.0.1:49673 - "POST /api/masters/upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51454 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56572 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56072 - "GET /api/masters/17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /api/field-mappings?source_file_id=16&destination_file_id=17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /api/field-mappings/rejections?source_file_id=16&destination_file_id=17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51503 - "GET /api/field-mappings?source_file_id=16&destination_file_id=17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50475 - "POST /api/field-mappings/run/start?source_file_id=16&destination_file_id=17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50475 - "GET /api/field-mappings/run/status?source_file_id=16&destination_file_id=17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50475 - "GET /api/field-mappings/run/status?source_file_id=16&destination_file_id=17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50475 - "GET /api/field-mappings/run/status?source_file_id=16&destination_file_id=17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50475 - "GET /api/field-mappings?source_file_id=16&destination_file_id=17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50475 - "GET /api/field-mappings/rejections?source_file_id=16&destination_file_id=17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55704 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63725 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63725 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55704 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58513 - "POST /api/masters/list-sheets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58709 - "POST /api/masters/list-sheets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58709 - "POST /api/masters/upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64052 - "POST /api/masters/upload HTTP/1.1" 409 Conflict
+INFO:     127.0.0.1:54219 - "GET /api/masters/17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51811 - "POST /api/masters/upload HTTP/1.1" 409 Conflict
+INFO:     127.0.0.1:57115 - "POST /api/masters/list-sheets HTTP/1.1" 200 OK
+    [AI] OpenRouter (key 1) failed (Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 2000 tokens, but can only afford 1852. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 2000 tokens, but can only afford 1852. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3GISrhPsNj4Xv2hISTLYOL5TaBQ'}) -> trying next
+INFO:     127.0.0.1:57115 - "POST /api/masters/upload HTTP/1.1" 409 Conflict
+INFO:     127.0.0.1:57115 - "OPTIONS /api/masters/18/confirm HTTP/1.1" 200 OK
+    [AI] OpenRouter (key 1) failed (Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4000 tokens, but can only afford 1852. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4000 tokens, but can only afford 1852. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3GISrhPsNj4Xv2hISTLYOL5TaBQ'}) -> trying next
+    [AI] OpenRouter (key 1) failed (Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 2000 tokens, but can only afford 1852. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 2000 tokens, but can only afford 1852. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3GISrhPsNj4Xv2hISTLYOL5TaBQ'}) -> trying next
+INFO:     127.0.0.1:57115 - "POST /api/masters/upload HTTP/1.1" 409 Conflict
+    [AI] OpenRouter (key 1) failed (Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4000 tokens, but can only afford 1852. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4000 tokens, but can only afford 1852. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3GISrhPsNj4Xv2hISTLYOL5TaBQ'}) -> trying next
+    [AI] OpenRouter (key 1) failed (Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4000 tokens, but can only afford 1852. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4000 tokens, but can only afford 1852. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3GISrhPsNj4Xv2hISTLYOL5TaBQ'}) -> trying next
+    [AI] Groq (key 1) failed (Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kvwekwnxecs8gr41k52ha3cx` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 10136, Requested 6570. Please try again in 23.53s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}) -> trying next
+INFO:     127.0.0.1:55332 - "POST /api/masters/18/confirm HTTP/1.1" 502 Bad Gateway
+    [AI] OpenRouter (key 1) failed (Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 2000 tokens, but can only afford 1852. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 2000 tokens, but can only afford 1852. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3GISrhPsNj4Xv2hISTLYOL5TaBQ'}) -> trying next
+    [AI] OpenRouter (key 1) failed (Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4000 tokens, but can only afford 1852. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4000 tokens, but can only afford 1852. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3GISrhPsNj4Xv2hISTLYOL5TaBQ'}) -> trying next
+    [AI] Groq (key 1) failed (Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kvwekwnxecs8gr41k52ha3cx` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11650, Requested 4622. Please try again in 21.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}) -> trying next
+INFO:     127.0.0.1:55332 - "POST /api/masters/upload HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61672 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55319 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51338 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51338 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62337 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51632 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56372 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56372 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55065 - "GET /api/field-mappings?source_file_id=16&destination_file_id=17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55065 - "GET /api/field-mappings/rejections?source_file_id=16&destination_file_id=17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49674 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53331 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50758 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61481 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59604 - "GET /api/field-mappings?source_file_id=16&destination_file_id=17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59604 - "GET /api/field-mappings/rejections?source_file_id=16&destination_file_id=17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63584 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50423 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63535 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52702 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62116 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56966 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57301 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53187 - "GET /api/masters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50993 - "GET /api/masters HTTP/1.1" 200 OK

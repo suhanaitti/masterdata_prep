@@ -1,0 +1,14 @@
+ ⚠ ./components/FieldMappingSection.tsx
+Attempted import error: 'exportSuggestionsUrl' is not exported from '../lib/api' (imported as 'exportSuggestionsUrl').
+
+Import trace for requested module:
+./components/FieldMappingSection.tsx
+./app/page.tsx
+
+./components/FieldMappingSection.tsx
+Attempted import error: 'exportSuggestionsUrl' is not exported from '../lib/api' (imported as 'exportSuggestionsUrl').
+
+Import trace for requested module:
+./components/FieldMappingSection.tsx
+./app/page.tsx
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
